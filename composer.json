@@ -1,0 +1,24 @@
+{
+    "name": "houdaslassi/laravel-concurrency-lab",
+    "description": "Tiny lab to reproduce & prevent race conditions in Laravel (locks & funnels).",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Houda\\ConcurrencyLab\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Houda\\ConcurrencyLab\\ConcurrencyLabServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^11.0",
+        "illuminate/queue": "^11.0",
+        "illuminate/redis": "^11.0"
+    }
+}
