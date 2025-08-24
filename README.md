@@ -100,7 +100,6 @@ Check results in `storage/logs/laravel.log`.
 
 - To see race conditions in action (not just read theory)
 - To learn difference between no lock, lock, and funnel
-- To use in articles, tutorials, and workshops
 
 ---
 
@@ -148,7 +147,6 @@ This is an educational project. Feel free to:
 - Fork and experiment
 - Submit issues for bugs
 - Suggest improvements
-- Use in your own tutorials
 
 ---
 
